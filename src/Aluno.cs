@@ -21,7 +21,7 @@ namespace src
         {
             double notaFinal = NotaFinal();
 
-            if(NotaFinal < 60.0)
+            if(notaFinal < 60.0)
             {
                 return "Nota Final = " 
                     + notaFinal.ToString("F2", CultureInfo.InvariantCulture) 
